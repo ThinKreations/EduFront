@@ -1,0 +1,47 @@
+/* Estilo de la cabezera del login */
+.container{
+    background-color: var(--blue-color);
+    color: white;
+    display: flex;
+}
+
+.title{
+    font-size: 20px;
+    padding: 12px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edufull{
+    font-size: 26px;
+    padding: 12px;
+    width: 50%;
+}
+
+/* El cuadrito ese de inicio jejej */
+.main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    border-radius: 2px;
+    border-bottom: 3px solid var(--blue-titles);
+    margin-top: 100px;
+    padding: 18px;
+}
+
+.title_form{
+    color: var(--blue-titles);
+    font-size: 26px;
+}
+
+.sub{
+    color: var(--blue-sub);
+    display: flex;
+    justify-content: flex-start;
+    margin: 12px;
+    font-size: 24px;
+}
