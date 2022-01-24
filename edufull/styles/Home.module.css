@@ -1,3 +1,75 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Inter', sans-serif;
+  font-display: swap;
+  src: url('../Inter-VariableFont_slnt,wght.ttf');
+
+}
+
+
 .container {
   padding: 0;
+}
+
+/* --- MainLayout --- */
+/* MainHeader */
+.mainHeader{
+  width: 100%;
+  height: auto;
+  background-color: var(--blue-color);
+  padding: 1%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px #3a3a3a;
+}
+
+
+
+  .mainHeader button{
+    width: 10vw;
+    height: auto;
+    color: white;
+    border: none;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: var(--blue-color);
+    transition: 0.1s;
+  }
+
+    .mainHeader button:hover{
+      background-color: white;
+      color:var(--blue-color);
+    }
+  
+/* Contenedores del Header */
+
+.left{
+  width: 30vw;
+  height: auto;
+  color: white;
+  border: none;
+  padding: 1%s;
+  background-color: var(--blue-color);
+}
+
+.mid{
+  width: 30vw;
+  height: auto;
+  color: white;
+  border: none;
+  padding: 1%s;
+  background-color: var(--blue-color);
+  text-align: center;
+}
+
+.right{
+  width: 30vw;
+  height: auto;
+  color: white;
+  border: none;
+  padding: 1%s;
+  background-color: var(--blue-color);
+  text-align: end;
 }

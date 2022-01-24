@@ -1,12 +1,18 @@
-import Container from "../../components/Container";
+
 import ContainerForm from "../../components/login/ContainerForm";
+
+import Head from '../../components/Head'
+import Layout from '../../components/Layout'
+
 
 //Inicio de sesion
 export default function Index () {
   return (
     <>
-      <Container title="Inicio de sesión." />
+    <Head titulo="Accede"/>
+    <Layout>
       <ContainerForm titulo="Inicio de sesión."/>
+    </Layout>
     </>
   )
 }

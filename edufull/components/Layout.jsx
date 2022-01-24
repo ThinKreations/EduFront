@@ -11,10 +11,9 @@ export default function MainLayout({ children }){
         <>
         <div className={styles.container}>
             <header className={styles.mainHeader}>
-            
+
             <div className={styles.left}><Image src={logo} width={'250px'} height={'77px'}  /></div>
-            <div className={styles.right}><Link href='login'><button><font face="Inter"><h2>Acceder</h2></font></button></Link></div>
-            
+            <div className={styles.right}><Link href='login'><button onClick={()=>{window.history.back();}}><font face="Inter"><h2>Volver</h2></font></button></Link></div>
             
             
             </header>
