@@ -51,7 +51,7 @@
   color: white;
   border: none;
   padding: 1%s;
-  background-color: var(--blue-color);
+  align-items: center;
 }
 
 .mid{
@@ -60,7 +60,7 @@
   color: white;
   border: none;
   padding: 1%s;
-  background-color: var(--blue-color);
+  align-items: center;
   text-align: center;
 }
 
@@ -70,6 +70,34 @@
   color: white;
   border: none;
   padding: 1%s;
-  background-color: var(--blue-color);
+  align-items: center;
   text-align: end;
 }
+
+/* Contenido del Index */
+
+.mainContainer{
+  width: 100%;
+  height: auto;
+  padding: 5vw;
+  
+}
+
+/* --- Footer --- */
+
+.mainFooter{
+  background-color: rgb(25, 33, 41);
+  padding: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainFooter a{
+  color: inherit;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+  .mainFooter a:hover{
+    text-shadow: 0px 0px 5px rgb(250,250,250);
+  }

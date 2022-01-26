@@ -11,7 +11,9 @@ export default function Home() {
     <div className={styles.container}>
       <Head titulo="EduFull"/>
       <Layout>
-        Ola
+        <div className={styles.mainContainer}>
+          Ola
+        </div>
       </Layout>
     </div>
     </>
