@@ -11,7 +11,7 @@ export default function Index () {
     <>
     <Head titulo="Accede"/>
     <Layout>
-      <ContainerForm titulo="Inicio de sesión."/>
+      <ContainerForm titulo="Inicio de Sesión"/>
     </Layout>
     </>
   )

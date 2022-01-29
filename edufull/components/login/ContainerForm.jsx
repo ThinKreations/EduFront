@@ -1,12 +1,13 @@
-import styles from '../../styles/Login.module.css'
+import styles from '../../styles/Home.module.css'
 import InicioSesion from './InicioSesion'
 
 export default function ContainerForm ({ titulo }) {
   return (
     <>
-      <div className={styles.main_container}>
-          <form className={styles.formulario} >
-            <h3 className={styles.title_form} >{titulo}</h3>
+      <div className={styles.containerLog}>
+          <form className={styles.formLog} >
+            <center><font face="Inter" color="#5656E7" size="6"><h3>{titulo}</h3></font></center>
+            
             <InicioSesion/>
           </form>
       </div>
