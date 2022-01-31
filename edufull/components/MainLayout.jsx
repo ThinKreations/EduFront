@@ -21,10 +21,10 @@ export default function MainLayout({ children }){
                     <font face="Inter" size="2">
                     <br/>
                     <h3>Miembros:</h3>
-                    <li><Link href="Xd"><a target="_blank">Arce Roldán Sergio Elías</a></Link></li>
-                    <li><Link href="Xd"><a target="_blank">Castañeda Rodriguez Rafael Gil</a></Link></li>
-                    <li><Link href="Xd"><a target="_blank">Flores Zamora Ithan Adrián</a></Link></li>
-                    <li><Link href="Xd"><a target="_blank">Gutiérrez Villalobos José Alfredo</a></Link></li>
+                    <li><Link href="http://github.com/Kiramasu2003"><a target="_blank">Arce Roldán Sergio Elías</a></Link></li>
+                    <li><Link href="http://github.com/Rafael260401"><a target="_blank">Castañeda Rodriguez Rafael Gil</a></Link></li>
+                    <li><Link href="http://github.com/addRian0-0"><a target="_blank">Flores Zamora Ithan Adrián</a></Link></li>
+                    <li><Link href="http://github.com/AlfredoGV77"><a target="_blank">Gutiérrez Villalobos José Alfredo</a></Link></li>
                     <li><Link href="https://github.com/ThinKreations"><a target="_blank">Nápoles Munguía José de Jesús</a></Link></li>
                     
                     

@@ -1,15 +1,5 @@
 /* El cuadrito ese de inicio jejej */
-.main_container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
 
-.formulario{
-    margin-top: 100px;
-    margin-bottom: 100px;
-    padding: 18px;
-}
 /*
 .title_form{
     color: var(--blue-titles);
